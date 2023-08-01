@@ -41,17 +41,6 @@
     
   }
 
-  ::placeholder {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
-  }
-
   #mainsearch2 > span {
     color: #616475;
     height: 48px;
