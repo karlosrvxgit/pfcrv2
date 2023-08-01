@@ -11,9 +11,8 @@ const WeatherCard = ({ weatherData }) => {
         <div id='tminmax'>
         <p>{weatherData.main.temp_min}</p>
         <p>{weatherData.main.temp_max}</p>
+        <h6>card1</h6>
         </div>
-        
-        
       </div>
     );
   };
