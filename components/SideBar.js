@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "./sideBar.css";
+// import "./sideBar.css";
 import { useState } from "react";
 
 export default function SideBar(props) {
@@ -61,9 +61,6 @@ export default function SideBar(props) {
                 ))}
               </ul>
             </section>
-            {/* <section id="img2">
-              <img src="./funval.png" alt="" />
-            </section> */}
           </div>
         </main>
       </div>
