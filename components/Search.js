@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import styles from './SideBar.css'
+// import styles from './sideBar.css'
 import { useState } from 'react';
 import React from 'react'
 
@@ -19,21 +19,7 @@ export default function Search() {
   };
 
   const searchPlaces = async (query) => {
-    // Implement your search logic here, such as calling an API or querying a database.
-    // For simplicity, we'll return a mock array of place names that match the query.
-
-    // useEffect(() => {
-    //     const getData = async () =>{
-    //         const place = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ea8d1197afcdcf7db5d10fa7a763caaf&units=metric`)
-            
-    //         if(place.ok == true) {
-    //             const data = await place.json();
-    //             setCurrent(data);
-    //         }
-    //     }
-    
-    //     getData();
-    //   }, [city]);
+  
 
     return places.filter((place) =>
       place.toLowerCase().includes(query.toLowerCase())
