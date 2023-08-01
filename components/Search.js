@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-// import styles from './sideBar.css'
+import styles from './sideBar.css'
 import { useState } from 'react';
 import React from 'react'
 
